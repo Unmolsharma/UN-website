@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+
+      <!-- STYLE TAGS must be placed within the HEAD SECTION of the file -->
+      <style>
+
+          body {
+            background-color: blue; /* place comments betwwen these markers */
+            background-image: url("test1.jpg"); /* */
+            background-position: center; /* */
+            background-repeat: no-repeat; /* */
+            background-size: 75%; /* */
+          }
+
+          .option1 {
+            border: 4px dotted black
+          }
+
+          .option2 {
+            border: 4px solid white;
+          }
+
+          .myDiv {
+  border: 5px outset red;
+  background-color: yellow;    
+  text-align: center;
+}
+
+ .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: olive;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+ .flex-container {
+
+          display: flex;
+          height: 1500px;
+          width: 1200px;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-content: space-around;
+          background-color: green;
+      }
+
+      .flex-item1 {
+          background-color: red;
+          margin: 12px;
+          padding: 18px;
+          font-size: 20px;
+      }
+
+      .flex-item2 {
+          background-color: forestgreen;
+          margin: 11px;
+          padding: 24px;
+          font-size: 20px;
+      }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: green;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: green;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #632;
+  color: red;
+
+    </style>
+  </head>
+
+  <!-- Body  -->
+  <body>
+
+        
+           
+      </style>  
+       
+    </head>
+   
+    <body>
+
+        <h1 class="option1">Controlling Climate Change: A UN goal</h1>
+
+      
+        <div> </div>
+ 
+
+        <h2 class="option2"> By: Unmol Sharma</h2>    
+
+
+
+}
+
+
+<body>
+ <div class="grid-container">
+  <div class="item1">
+  Goal 13.2:Integrate climate change measures into national policies, strategies and planning 
+   
+  </div>
+  <div class="item2">
+    <ul>
+  <li><a href="design%20website.html">Home</a></li>
+
+  <li><a href="about%20the%20goal.html">About the Goal</a></li>
+
+
+<li><a href="Indicators.html">Indicators</a></li>
+
+<li><a href="Paris%20Agreement.html">Paris Agreement</a></li>
+
+  <li><a href="https://www.vox.com/future-perfect/2019/12/2/20976180/climate-change-best-charities-effective-philanthropy">Charities</a></li>
+  <li><a href="https://climatechange.forumotion.com/">Discussion</a></li>
+  <li><a href="https://www.google.com/search?q=climate+change+news+Canada&rlz=1C5GCEM_enCA937CA937&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjX0d-YiMfvAhWjFVkFHS-MCkwQ_AUoAXoECAQQAw&biw=1440&bih=732">News</a></li>
+
+  <li><a href="https://ic3uwaterlooca.itch.io/illuminate">Simulation</a></li>
+<li><a href="https://www.youtube.com/watch?v=xdjLK4Qm86I&ab_channel=UniversityofOxford">Podcast</a></li>
+
+<li><a href="https://teams.microsoft.com/l/chat/0/0?users=<unmolsharma05@gmail.com>">Chat with me</a></li>
+
+<li><a href="More%20info.html">More Info</a></li>
+
+</ul>
+
+</div>
+  <div class="item3"><img src="https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2020/10/Moraine-Lake-712x480.jpg" alt="Nice view of Canada" width="620" height="400"> 
+</div>  
+  <div class="item4"><img src="https://static.wikia.nocookie.net/expanse/images/4/49/UN_logo.png/revision/latest?cb=20170822203644" alt="Nice view of Canada" width="550" height="400"> </div>
+  <div class="item5">By:Unmol Sharma</div>
+</div>
+
+
+</div>
+
+      <div class = "flex-item1">
+<form action="/action_page.php">
+  <label for="fname">What did you take away from this website?</label>
+  <input type="text" id="takeaway" name="takeaway"><br><br>
+  <label for="change">How will you change your ways to help the world combat Climate Change?</label>
+  <input type="text" id="change" name="change"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+   <div class = "flex-item2">
+
+        
+        <div class="myDiv">
+  <h2>This is the end of the website</h2>
+  <p>By:Unmol Sharma</p>
+  <a href="https://www.youtube.com/watch?v=ub82Xb1C8os&ab_channel=JuiceboxHero">Check out my other website</a>
+
+    </div>
+
+
